@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-column {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .right-column {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left-column {
+    background-color: #f0f0f0; /* Left column background color */
+  }
+  
+  .login-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .right-column {
+    background-color: #fff; /* Right column background color */
+  }
+  
+  #gsi_910031_288238 {
+    margin: 0;
+  }
+  
+  .google-login-button {
+    padding: 20px 40px; /* Increased padding for the button */
+    font-size: 20px; /* Increased font size for the button */
+    background-color: #4285f4; /* Google Blue */
+    color: #fff;
+    border: none;
+    border-radius: 12px; /* Increased border-radius for a rounder button */
+  }
+  
+  #abc {
+    font-size: 28px;
+  }
+  
+  /* Media Queries for Mobile Responsive Design */
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .left-column,
+    .right-column {
+      width: 100%;
+    }
+  
+    .google-login-button {
+      padding: 20px 40px; /* Adjusted padding for the button in mobile view */
+      font-size: 20px; /* Adjusted font size for the button in mobile view */
+      border-radius: 12px; /* Adjusted border-radius for a rounder button in mobile view */
+    }
+  }
+  
